@@ -1,3 +1,3 @@
-# Umbrella Site
+# Welcome
 
 Welcome to SpatialMinds.
