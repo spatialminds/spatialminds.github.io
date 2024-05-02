@@ -25,7 +25,7 @@ format:
   html:
     theme: slate
     css: styles.css
-    mainfont: BlinkMacSystemFont
+    mainfont: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     fontcolor: "#FFFFFF"
     backgroundcolor: "#000000"
     toc: true
