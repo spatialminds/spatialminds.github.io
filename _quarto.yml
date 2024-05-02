@@ -1,0 +1,41 @@
+project:
+  type: website
+
+execute:
+  freeze: auto
+
+website:
+  title: "SpatialMinds"
+  navbar:
+    left:
+      - href: geo.qmd
+        text:  Swift Geo
+      - href: geoai.qmd
+        text:  GeoAI
+      - href: mojo_installation.qmd
+        text: 🔥 Mojo
+      - href: about.qmd
+        text: About
+    search: true
+    logo: images/logo.png
+    background: "#1D1D1F"
+
+
+format:
+  html:
+    theme: slate
+    css: styles.css
+    mainfont: BlinkMacSystemFont
+    fontcolor: "#FFFFFF"
+    backgroundcolor: "#000000"
+    toc: true
+    code-fold: true
+    syntax-definitions:
+      - syntax-definitions/mojo.xml
+
+filters:
+  - pyodide
+
+bibliography: /Users/craig/bibtex-files/ZoteroReferences.bib
+suppress-bibliography: false
+# csl: /Users/craig/bibtex-files/csl/taylor-and-francis-harvard-x
