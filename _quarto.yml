@@ -36,6 +36,6 @@ format:
 filters:
   - pyodide
 
-bibliography: /Users/craig/bibtex-files/ZoteroReferences.bib
+bibliography: bibliography.bib
 suppress-bibliography: false
 # csl: /Users/craig/bibtex-files/csl/taylor-and-francis-harvard-x
