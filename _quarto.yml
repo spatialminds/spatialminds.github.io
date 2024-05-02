@@ -8,16 +8,16 @@ website:
   title: "SpatialMinds"
   navbar:
     left:
-      - href: geo.qmd
-        text:  Swift Geo
-      - href: geoai.qmd
-        text:  GeoAI
+      # - href: geo.qmd
+        # text:  Swift Geo
+      # - href: geoai.qmd
+        # text:  GeoAI
       - href: mojo_installation.qmd
         text: 🔥 Mojo
-      - href: about.qmd
-        text: About
+      # - href: about.qmd
+        # text: About
     search: true
-    logo: images/logo.png
+    # logo: images/logo.png
     background: "#1D1D1F"
 
 

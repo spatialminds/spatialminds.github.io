@@ -1,3 +1,8 @@
 ---
-title: "SpatialMinds"
+# title: ""
 ---
+## We code apps with maps.
+
+Location Intelligence, Spatial Analysis, and custom geospatial solutions for iPhone, iPad, CarPlay, Mac, Apple Watch, and AppleTV.  We work with geospatial data from satellite imagery, street networks, indoor mapping data, mobility data, census data, the environment, and more.  We love beautiful data visualization and UI/UX design.
+
+Welcome.
