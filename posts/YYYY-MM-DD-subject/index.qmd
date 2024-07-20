@@ -1,5 +1,4 @@
 ---
-jupyter: python3
 title: "TITLE"
 # pagetitle: "{{< meta title >}}"
 description: "DESCRIPTION"
@@ -9,7 +8,7 @@ image: thumb.png
 draft: true
 format:
   html: default
-  pdf: default
+  # pdf: default
 # abstract: >
   # ABSTRACT
 keywords:
