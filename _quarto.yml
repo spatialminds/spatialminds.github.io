@@ -36,14 +36,14 @@ website:
         - geo/introduction.qmd
         - section: "Architecture"
           contents: geo/architecture/*
-        - section: "Maps"
-          contents: geo/maps/*
-        - section: "Data"
-          contents:
-            - section: "GDAL"
-              contents: geo/data/gdal/*
-            - section: "PostGIS"
-              contents: geo/data/postgis/*
+        # - section: "Maps"
+        #   contents: geo/maps/*
+        # - section: "Data"
+        #   contents:
+        #     - section: "GDAL"
+        #       contents: geo/data/gdal/*
+        #     - section: "PostGIS"
+        #       contents: geo/data/postgis/*
 format:
   html:
     theme: slate

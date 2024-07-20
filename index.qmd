@@ -8,7 +8,7 @@ listing:
   categories: true  # allows you to sort posts by assigned categories
 citation: false
 toc: false
-feed: true
+# feed: true
 ---
 <!-- ![{{< meta image-alt >}}]({{< meta image >}}) -->
 ![](/images/appleearth-banner.png)
