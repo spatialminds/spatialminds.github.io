@@ -14,12 +14,8 @@ website:
   navbar:
     pinned: true
     left:
-      - href: geo/architecture/whats_a_geostack.qmd
+      - href: geo/introduction.qmd
         text:  Location Intelligence
-      # - href: geoai/introduction.qmd
-      #   text:  GeoAI
-      # - href: mojo_installation.qmd
-      #   text: 🔥 Mojo
       - href: about.qmd
         text: About
     right:
@@ -48,22 +44,6 @@ website:
               contents: geo/data/gdal/*
             - section: "PostGIS"
               contents: geo/data/postgis/*
-        # - section: "Analytics"
-        #   contents: geo/analytics/*
-    # - title: " GeoAI"
-    #   style: "docked"
-    #   collapse-level: 3
-    #   background: "#1D1D1F"
-    #   contents:
-    #     - geoai/introduction.qmd
-        # - section: "CoreML"
-        #   contents: geoai/coreml/*
-        # - section: "pyTorch"
-        #   contents: geoai/pytorch/*
-        # - mojo_installation.qmd
-        # - tutorial-1.qmd
-        # - tutorial-2.qmd
-
 format:
   html:
     theme: slate
@@ -83,7 +63,7 @@ filters:
 
 title-block-style: default
 date-format: long
-jupyter: python3
+# jupyter: python3
 bibliography: bibliography.bib
 suppress-bibliography: false
 # csl: csl/taylor-and-francis-harvard-x
