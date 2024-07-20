@@ -1,5 +1,4 @@
 ---
-jupyter: python3
 title: "Mojo Installation"
 # pagetitle: "{{< meta title >}}"
 description: "How to install Mojo on macOS."

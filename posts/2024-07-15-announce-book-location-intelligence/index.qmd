@@ -1,5 +1,4 @@
 ---
-jupyter: python3
 title: " Location Intelligence Book Project"
 # pagetitle: "{{< meta title >}}"
 description: "Developing a complete Swift GeoStack"
