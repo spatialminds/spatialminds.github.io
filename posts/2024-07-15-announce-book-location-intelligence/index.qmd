@@ -8,7 +8,7 @@ image: thumb.png
 draft: false
 format:
   html: default
-  pdf: default
+  # pdf: default
 # abstract: >
   # ABSTRACT
 # keywords:

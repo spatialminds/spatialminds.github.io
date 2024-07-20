@@ -8,7 +8,7 @@ image: thumb.png
 draft: false # setting this to `true` will prevent your post from appearing on your listing page until you're ready!
 format:
   html: default
-  pdf: default
+  # pdf: default
 # abstract: >
 #   The characteristic theme of the works of Stone is
 #   the bridge between culture and society. ...
