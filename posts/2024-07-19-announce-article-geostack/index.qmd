@@ -1,6 +1,5 @@
 ---
 title: "What's a GeoStack?"
-# pagetitle: "{{< meta title >}}"
 description: "High level architecture of a Swift GeoStack"
 date: 07-19-2024
 categories: [Announcement] # self-defined categories
