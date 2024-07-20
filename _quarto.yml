@@ -6,7 +6,7 @@ execute:
 
 website:
   title: '[<b>Spatial</b>Minds]{style="background: linear-gradient(to right, #0FDDFF, #F03FFF); -webkit-background-clip: text; -webkit-text-fill-color: transparent; " }'
-  description: "Location Intelligence in Swift"
+  # description: "Location Intelligence in Swift"
   # reader-mode: true
   site-url: "https://spatialminds.com"
   open-graph: true
@@ -58,8 +58,8 @@ format:
       - syntax-definitions/mojo.xml
     include-in-header:
       - text: <script src="https://cdn.pagesense.io/js/nextidea/1eb96277bc5e40feb1e5b25eb8583fb7.js"></script>
-filters:
-  - pyodide
+# filters:
+  # - pyodide
 
 title-block-style: default
 date-format: long
