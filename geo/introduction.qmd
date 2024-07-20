@@ -1,0 +1,21 @@
+---
+title: " Location Intelligence"
+# jupyter: python3
+date: last-modified
+date-format: long
+---
+> "Location intelligence is the insight gained from visualizing and analyzing geospatial data. Layering location-specific data—such as demographics, traffic, environment, economics, and weather—on a smart map or dashboard reveals unique insights. Leaders use location intelligence to better understand where and why things are happening and plan what to do next." [^1]
+
+
+That sounds great!  I want to gain insight by visualizing and analyzing geospatial data.  I want to layer location specific data, make smart maps, and gain unique insights. Unfortunately...
+
+Apple Swift developers have very few multi-platform (macOS, iOS, iPadOS, tvOS, watchOS, visionOS) geospatial SDKs available to them.  While there is a plethora of consumer mapping SDKs available to show simple maps on the iPhone, not even the venerable ESRI "The World Leader in GIS" supports Swift multi-platform.  Only Apple's MapKit is multi-platform, but it targeting only the simplest uses.  MacOS, despite being used everywhere in geo/data science, AI, and Academia is consistently left out by all of the mapping SDK providers.  There simply isn't a multi-platform Mapping SDK that targets advanced use-cases.
+
+I want to build maps with custom sourced satellite imagery, visual movement of wind with an animated overlay, create 3D scenes of elevation and bathymetry, and oh-so-much-more.  Of the SDKs that are available, very few support a variety of [Open Geospatial Consortion](https://www.ogc.org) standard data sources, and file formats.  Very little by way of geospatial processing is supported.  An Apple Swift Developer can't simply add a Swift Package, make beautiful map data visualizations, import geodata, and perform complex analysis.  SwiftData doesn't support geospatial indexes.  Foundational Geospatial libraries such as GDAL are no longer available as a framework (RIP KyngChaos).  For the Apple Swift Developer, the Geospatial SDK landscape is, well, bleak.
+
+In the AI era, where data exploration and modeling are more important than ever, it's time to build this foundation and bring Location Intelligence to the Apple Ecosystem.
+
+Here we will first define what Geospatial Stack's are, then build one in Swift. Let's make apps with maps in a Swifty way!
+
+<!-- Footnotes -->
+[^1]: [ESRI](https://www.esri.com/en-us/location-intelligence/overview#:~:text=Location%20intelligence%20is%20the%20insight,or%20dashboard%20reveals%20unique%20insights.)

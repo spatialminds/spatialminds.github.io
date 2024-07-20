@@ -1,0 +1,48 @@
+---
+title: "Using Apple Maps with a macOS Touchscreen"
+# pagetitle: "{{< meta title >}}"
+description: "Acer 23T mutlitouch display with dawkeys.com driver and gesture app."
+date: 01-10-2022
+categories: [Project] # self-defined categories
+image: thumb.jpg
+image-height: 200px
+draft: false # setting this to `true` will prevent your post from appearing on your listing page until you're ready!
+format:
+  html: default
+  # pdf: default
+# abstract: >
+#   The characteristic theme of the works of Stone is
+#   the bridge between culture and society. ...
+# keywords:
+#   - Swift
+#   - Geospatial stack
+# title-block-banner: true
+author:
+  - name:
+      given: Craig A
+      family: Miller
+    id: cm
+    # email: craig@spatialminds.com
+    # affiliation:
+    #   - name: Spatial Minds
+    #     degrees:
+    #       - BA Geography
+    #       - MS Spatial Information Science and Engineering
+    #     url: spatialminds.com
+      # - name: Next Idea LLC
+        # url: nextidea.io
+citation: false
+appendix-cite-as: display
+# license: "CC BY"
+copyright:
+  holder: Craig A Miller
+  year: 2024
+funding: "The author(s) received no specific funding for this work."
+include-after-body:
+  text: |
+    <footer class="footer">© 2024 Craig A Miller.  All rights reserved.</footer>
+---
+
+{{< video https://vimeo.com/119034024 >}}
+
+Acer 23T mutlitouch display with dawkeys.com driver and gesture app.

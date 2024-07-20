@@ -1,0 +1,11 @@
+{
+  "hash": "60f5b17247fe2dc46ed059dae1f20934",
+  "result": {
+    "engine": "jupyter",
+    "markdown": "---\ntitle:  Location Intelligence Book Project\ndescription: Developing a complete Swift GeoStack for Location Intelligence\ndate: 07-15-2024\ncategories:\n  - Announcement\nimage: thumb.png\ndraft: false\nformat:\n  html: default\n  pdf: default\nkeywords:\n  - Swift\n  - Geospatial stack\nauthor:\n  - name:\n      given: Craig A\n      family: Miller\n    id: cm\ncitation: false\nappendix-cite-as: display\ncopyright:\n  holder: Craig A Miller\n  year: 2024\ninclude-after-body:\n  text: |\n    <footer class=\"footer\">© 2024 Craig A Miller.  All rights reserved.</footer>\n---\n\nIn order to address the lack of Geographic Information components available to Swift developers we're exploring and developing a full GeoStack.  Each step will be documented in a book, to help future readers learn what a GeoStack is and how they can use it for geo-data exploration, visualization, and geo-processing.  Huzzah!\n\nYou can find it in [ Location Intelligence](/geo/introduction.qmd)\n\n",
+    "supporting": [
+      "index_files/figure-pdf"
+    ],
+    "filters": []
+  }
+}

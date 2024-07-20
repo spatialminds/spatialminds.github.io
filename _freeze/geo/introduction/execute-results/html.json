@@ -1,0 +1,12 @@
+{
+  "hash": "47dea71bdf5c4f1b147079ab904b069f",
+  "result": {
+    "engine": "jupyter",
+    "markdown": "---\ntitle:  Location Intelligence\ndate: last-modified\ndate-format: long\n---\n\n> \"Location intelligence is the insight gained from visualizing and analyzing geospatial data. Layering location-specific data—such as demographics, traffic, environment, economics, and weather—on a smart map or dashboard reveals unique insights. Leaders use location intelligence to better understand where and why things are happening and plan what to do next.\" [^1]\n\n\nApple Swift developers have very few cross-platform (iOS/macOS) geospatial SDKs available to them.  While there is a plethora of consumer mapping SDKs available to show simple maps on the iPhone, not even the venerable ESRI \"The World Leader in GIS\" supports Swift cross platform.  MacOS is consistently left out by all of the mapping SDK providers.\n\nOf the SDKs that are available, very few support a variety of [Open Geospatial Consortion](https://www.ogc.org) standard data sources, and file formats.  Very little by way of geospatial processing is supported.  Apart from the simplest of use-cases, an Apple Swift Developer can't simply add a Swift Package and start building an app.  SwiftData doesn't support geospatial indexes.  Foundational Geospatial libraries such as GDAL are no longer available as a framework (RIP KyngChaos).  For the Apple Swift Developer, the Geospatial SDK landscape is a bit bleak.\n\nIn the AI era, where data exploration and modeling are more important than ever, it's time to build this foundation and bring Location Intelligence to the Apple Ecosystem.\n\nHere we will first define what a Geospatial Stack as a high level architecture, then systematically explore the SDK options available for each component of the stack.  Write some code to document how each piece fits together building a complete Swifty GIS one piece at a time.\n\n<!-- Footnotes -->\n[^1]: [ESRI](https://www.esri.com/en-us/location-intelligence/overview#:~:text=Location%20intelligence%20is%20the%20insight,or%20dashboard%20reveals%20unique%20insights.)\n\n",
+    "supporting": [
+      "introduction_files/figure-html"
+    ],
+    "filters": [],
+    "includes": {}
+  }
+}

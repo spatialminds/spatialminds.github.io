@@ -1,0 +1,12 @@
+{
+  "hash": "ec36dd4f97c0202cd7b3c947087aa60b",
+  "result": {
+    "engine": "jupyter",
+    "markdown": "---\ntitle: Introduction\n---\n\nAnalytics\n\n",
+    "supporting": [
+      "introduction_files"
+    ],
+    "filters": [],
+    "includes": {}
+  }
+}

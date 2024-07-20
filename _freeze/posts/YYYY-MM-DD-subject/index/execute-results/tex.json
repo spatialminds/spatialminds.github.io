@@ -1,0 +1,11 @@
+{
+  "hash": "6ce5081d86b89c832636c9e5605d1083",
+  "result": {
+    "engine": "jupyter",
+    "markdown": "---\ntitle: TITLE\ndescription: DESCRIPTION\ndate: 01-01-3000\ncategories:\n  - Tech Guide\nimage: thumb.png\ndraft: true\nformat:\n  html: default\n  pdf: default\nauthor:\n  - name:\n      given: Craig A\n      family: Miller\n    id: cm\ncitation: false\nappendix-cite-as: display\ncopyright:\n  holder: Craig A Miller\n  year: 2024\nfunding: The author(s) received no specific funding for this work.\ninclude-after-body:\n  text: |\n    <footer class=\"footer\">© 2024 Craig A Miller.  All rights reserved.</footer>\n---\n\n## Introduction\n\nFootnote[^1]\nReference @millerGeographicalDistributionPuget1980\n\n[^1]: https://nextidea.io\n\n",
+    "supporting": [
+      "index_files/figure-pdf"
+    ],
+    "filters": []
+  }
+}

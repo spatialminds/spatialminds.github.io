@@ -1,0 +1,203 @@
+---
+title: "What's a GeoStack?"
+format:
+  html: default
+  pdf: default
+# abstract: >
+#   The characteristic theme of the works of Stone is
+#   the bridge between culture and society. ...
+keywords:
+  - Swift
+  - Geospatial stack
+  - GeoStack
+  - Open Geospatial Consortium
+order: 1
+# title-block-banner: true
+author:
+  - name:
+      given: Craig A
+      family: Miller
+    id: cm
+    # email: craig@spatialminds.com
+    # affiliation:
+    #   - name: Spatial Minds
+    #     degrees:
+    #       - BA Geography
+    #       - MS Spatial Information Science and Engineering
+    #     url: spatialminds.com
+      # - name: Next Idea LLC
+        # url: nextidea.io
+citation: true
+appendix-cite-as: display
+# license: "CC BY"
+copyright:
+  holder: Craig A Miller
+  year: 2024
+funding: "The author(s) received no specific funding for this work."
+date: last-modified
+include-after-body:
+  text: |
+    <footer class="footer">© 2024 Craig A Miller.  All rights reserved.</footer>
+---
+## Introduction
+This article describes the components and relationships used in a full-stack geospatial architecture.  We introduce stacks, standards, and protocols, and explain their importance. Finally, we introduce a high level enterprise Geostack.  By the end of this article, you'll have a foundational understanding of a Geospatial Stack.
+
+### Stacks
+In software, the high level architecture of an application is commonly described using a stack diagram.  The common enterprise architecture has three primary tiers and is visualized in a stack diagram like so:
+```{mermaid}
+%%|label: fig-classic-architecture
+%%|fig-cap: "Classic Enterprise Architecture"
+graph TD;
+app(Application Tier)<-->services(Services Tier)<-->data(Data Tier)
+```
+
+The rectangles represent a component. The connecting arrows represent communication, or flow, between them.  Double headed arrows represent two way communication.  Single headed arrows represent one way communication.
+
+Like a fractal, as you zoom in, you'll find stacks embedded within each component of a higher level stack. A stack communicates a particular level of abstraction within a software solution.  This article describes a high level Enterprise Architecture.
+
+### Standards and Protocols
+Standards and protocols define how components communicate and exchange information.  They define **how** things communicate anywhere you see an arrow in a stack diagram. A real life example is the home wall power outlet.  There is a standard specifying the plug layout and voltage. Because it's a standard you can use a wall outlet from any manufacturer and plug any device into it for power.  Standards enable interoperability.
+```{mermaid}
+%%|label: fig-vacuum
+%%|fig-cap: "Wall outlet powering a Vacuum"
+graph TD;
+outlet(Outlet)-->vacuum(Vacuum)
+```
+
+In software, we define standards in places where one component needs to talk to another.  The standard defines how it interfaces (plug pattern) and the format of the data (voltage). Standards ensure that software components work together even if different vendors created them.
+
+## GeoStack
+A Geospatial Stack is a collection of components used to collect, store, process, and visualize geospatial data. Components get organized into layers, called a tier.  Each tier handles different aspects of geospatial data management. Communication between components follows common standards. This enables seamless interoperability regardless of who makes the component.
+
+An application can consume maps from MapTiler or ESRI.  Consume geographic feature data from GeoServer or ESRI.  The services look the same to the Application regardless of the service provider.
+
+A high level GeoStack describes:
+
+  - Standards and Protocols Used
+  - Application Tier
+  - Services Tier
+  - Data Tier
+
+![Simplified GeoStack](/images/geostack-simplified.svg){.lightbox width=100% fig-alt="Simplified GeoStack" fig-align="center" #fig-simplified-geostack }
+
+In @fig-simplified-geostack Shows a basic geostack along with it's foundational protocols.  Apps at the top, Geo Services
+
+### Geospatial Standards
+
+  > The best thing about standards is that there are so many to choose from.
+
+This old quip, often said by engineers in all fields, is fortunately not as true in the GeoSpatial community.  We have a strong standards body in the Open Geospatial Consortium, strong support from both commercial GIS vendors, such as ESRI, and the open source community for implementing these standards.
+
+In a geospatial stack there are many standards.  Some of the more important standard bodies are:
+
+  - **OGC Standards**: Open Geospatial Consortium (OGC) standards like WMS (Web Map Service), WFS (Web Feature Service), and WCS (Web Coverage Service), as well as data standards like GeoJSON, Well Known Binary (WKB), Well Known Text (WKT), and many more.
+  - **EPSG Standards**: European Petroleum Survey Group (EPSG) publishes a database of map projections each year.
+  - **NMEA Standards**: National Marine Electronics Association (NMEA) publishes standards for marine equipment to communicate including the most common protocol for sending Geographical Positioning System (GPS) data between devices.
+  - **ISO Standards**: The International Standards Organization (ISO) publishes standards including ISO 19115, which describes geographic information and services, providing a framework for metadata.
+
+### Application Tier
+
+The Application Tier is where Mapping Apps exist and are developed
+
+- **GIS Software**: Uber on mobile, Google Maps on the web, and QGIS on the desktop
+- **Programming Libraries**: Libraries that enable a developer to read, write, manipulate, and analyze spatial data.
+- **Spatial Statistics Libraries**: Libraries that enable the exploration of spatial correlation, spatial patterns, etc.
+
+::: {.callout-note}
+There is a lot of opportunity within the Apple Swift Ecosystem at this level.  There are no cross-platform (iOS/macOS) mapping related SDKs available to Swift developers to easily consume and publish data, or render maps from standard map services.  Swift Maps dropped the older MapKit support for consuming OGC map tiles, Mapbox is iOS only, WhirlyGlobe no longer runs on the Mac.  The popular C/C++ framework GDAL is not available as a Swift Framework (RIP KyngChaos).  The Application Tier has a great void of standards compliant SDKs available to it.  In an era where data/geodata science and AI are crescendoing, this has resulted in very few Swift/SwiftUI native apps being built for iOS/macOS.
+:::
+
+### Services Tier
+The services tier is where headless technology exists.  Typically a web service (REST, gRPC, etc) that provides a service of some kind.  Products in the Application Tier call into this tier to store/fetch geo data, retrieve pre-render maps, perform analysis, or other operation.
+
+  - **Geospatial Servers**: GeoServer, MapServer, or ESRI ArcGIS Server for serving geospatial data via OGC compliant web services.
+  - **Cloud Storage**: Services like Amazon S3, Google Cloud Storage, or Azure Blob Storage to store pre-rendered map tiles that are accessible via a standard Tiled Map Service url scheme.
+
+::: {.callout-note}
+While there is little implemented in Swift at this tier, there is also little need.  There are many open source and commercial products that support OGC standards at this level. A Swift developer can spin up their own server or subcribe to services from a commercial vendor.
+:::
+
+### Data Tier
+#### Data Collection
+  - **APIs and Data Sources**: Public datasets in open standard formats, APIs like OpenStreetMap Tile Server, USGS SensorThings API, Satellite Imagery from a Tiled Map Server (TMS)
+  - **Sensors and Devices**: GPS devices, drones, satellites, and other sensors that capture geospatial data.
+
+#### Data Storage and Retrieval
+  - **Databases**: Specialized databases like PostGIS (an extension of PostgreSQL), SpatiaLite (an extension of SQLite), or NoSQL databases like MongoDB with geospatial indexing.
+
+## ZenDive - Complete GeoStack Example
+
+![GeoStack](/images/geostack.svg){.lightbox width=100% fig-alt="Complete GeoStack" fig-align="center" #fig-complete-geostack }
+
+A SCUBA dive shop in the Maldives has asked us to develop an app for their diving guides to help them find suitable dives for their customers experience level.  They'd like to record current data from various sensors they have placed at popular dive spots, and have the app to display it on a map.  In order to share data with local scientists they'd like to be able to export the data, including the observation location, in a common file format.
+
+The application needs to run on the Mac Desktop, iPad, iPhone, and in their lobby on an Apple TV.  We decide to develop it as a Swift/SwiftUI app.
+
+Time to work up an initial architecture..
+
+### Sensor Data
+The current sensors transmit the current speed wirelessly at 5 minute intervals.  Fortunately, they selected current speed sensors that don't depend on a proprietary platform.  They found several manufacturers that make current speed sensors that support the OGC standard SensorThings API.  They've purchased three different sensors and are going to test them out to see which one is the most reliable.  They'll select which one to use after a few months of testing.
+
+Great! We don't need to integrate with multiple vendor specific APIs.  This is especially nice, because they later plan to add additional sensors to measure ocean temperature and there are multiple thermometer options available that also support the SensorThings API.
+
+We will need a database to store data from the sensors, as well as the custom map tiles.  As this is geospatial data, we will need a spatially enabled database.  There are many that support OGC standards both commercial and open source:  PostGIS, H2, MySQL, Oracle Spatial, Microsoft SQL Server, Azure SQL Server and many more.  PostgreSQL with the PostGIS extension is a proven solution and importantly for the dive shop free.  It's also easy for developers to spin up on their laptops while developing, so we decide to go with that.
+
+#### Sensor Requirements
+- Hardware: SensorThings compatible current speed sensors
+- Hardware: SensorThings compatible water temperature sensors (Future)
+- Services: SensorThings API
+- Database: PostGIS
+
+### Services Tier - Map Tiles
+The dive shop wants basemaps that show the local bathymetry with both shaded relief and depth isolines.  They've acquired all the data from a local oceanographer doing research in their atoll.  We just need a way to serve it.
+
+One of the members of our development shop has been working on a Swift Vapor OGC Tiles specification server. She thinks she can add SensorThings support to it as well before we need to deliver the project.  We love that she's working on this project and agree that we'll compensate her for working on her Open Source solution and deploy her solution.
+
+In the meantime, our developers need an OGC Tile server to start working against.  The Java based GeoServer is free and supports the draft version of the OGC Tile Server specification.  GeoServer also supports PostGIS, so it's a drop-in replacement. We'll swap that in during early development and switch to the new Vapor based server later.  Gotta love standards based architectures!
+
+#### Map Tile Requirements
+- Services: OGC Tile Server API
+- Database: PostGIS
+
+### Application
+Within our Application, we'll need an Application Stack to describe how we're going to access the OGC Services and export to the OGC file formats.  We will need to read raster (bathymetry shaded relief) and vector map tiles (bathymetry isolines) from the OGC Tiles services tier to render maps.  It will also need to read the sensor data via the SensorThings API.
+
+#### Application Requirements
+- Things Client- OGC Sensor
+- OGC Tiles API Client
+- GeoDatabase and Shapefile Export
+- Map Rendering
+- Application UI
+
+#### OGC SensorThings API
+To read the SensorThings data in our ZenDive App we'll need a client library.  Unfortunately, there isn't anything available in Swift Package Manager for the SensorThings API.  We'll have to develop that on our own.  Fortunately, Swift has excellent support for JSON.  In fact our developer working on the SensorThings Server API has already used the swift-openapi-generator and the OGC OpenAPI specification document to create both a server side and client side library.  We've already implemented a library for managing geospatial data coming in as GeoJSON called GeoDAL.  We'll add a provider that wraps the open-api generated client library so it'll integrate smoothly into GeoDAL.
+
+#### OGC Tiles API
+To read the OGC Tiles data, we'll use our existing GeoDAL library.  It wraps the popular C/C++ Geographic Data Abstraction Library (GDAL) and offers us read/write access to every format GDAL supports.  While not a standard, by using GDAL we've abstracted away the details of working with Geospatial data in Swift.
+
+#### GeoDatabase and Shapefile Export
+To export the sensor data to OGC standard file formats, Geodatabase and Shapefile, we'll again use our existing GeoDAL library.  The underlying GDAL library supports writing both of these file formats.
+
+#### Map Rendering
+As there is no cross-platform (macOS, iPadOS, iOS, and tvOS) library available we've written our own GeoMap SwiftUI component.  It sits on top of GeoDAL and can render point, line, polygon, and raster data using Metal.
+
+#### Application UI
+At this point, we have all of the internal components of our application defined in the Application.  We only need to create a new multi-platform app and start coding up the wireframes we designed with the dive shop.
+
+The Application and Enterprise GeoStacks are defined.  We'll leave the Services Tier Vapor GeoStack to our developer working on her open source project.
+
+## Summary
+We have defined both an Enterprise GeoStack and an Application GeoStack.
+
+Notice that both stacks have the same responsibilities at each tier even though they are at different scales.  The Application Tier is responsible for presenting the data in the Enterprise GeoStack, just as the GeoMap component is responsible in the Application GeoStack.  The Services Tier is responsible for retrieving data and returning it in a standard format (GeoJSON) in the Enterprise GeoStack, just as GeoDAL retrieves data and presents it in standard Swift Codable structs in the Application GeoStack. The Data Tier is responsible for managing lower level details of storing/retrieving spatial data in the Enterprise GeoStack, just as GDAL and our SensorThings provider do in the Application GeoStack.  This is a very typical pattern in any GeoStack.
+
+```{mermaid}
+%%|label: fig-typical-geostack-architecture
+%%|fig-cap: "Typical GeoStack Architecture"
+graph TD;
+app(Presentation)<-->services(Services)<-->data(Data)
+```
+
+Inside the Application Stack we don't have interoperable standards so we had to create our own Data Abstraction Layer (DAL).  This is the same archtectural pattern that is used with the OGC Services API in the Enterprise GeoStack.  The Services API queries the database for OGC Well Known Binary, then returns it as GeoJSON to the Application in a common format.  With the application tier DAL in place, we're able to reuse the GeoDAL component in many future projects even if they require different types of geospatial data.
+
+In the Enterprise GeoStack we've designed using OGC standards so we'll be able to re-use the server code on other projects.  When re-using code, we can substitute in different Spatial Databases and Services Tier implementations.

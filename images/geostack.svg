@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:dc="http://purl.org/dc/elements/1.1/" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xl="http://www.w3.org/1999/xlink" viewBox="-274.5 38.71583 1303 869.7842" width="1303" height="869.7842">
+  <defs>
+    <radialGradient cx="0" cy="0" r="1" id="Gradient" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#9662d0"/>
+      <stop offset="1" stop-color="#521b93"/>
+    </radialGradient>
+    <radialGradient id="Obj_Gradient" xl:href="#Gradient" gradientTransform="translate(214 206) scale(285.81987)"/>
+    <radialGradient id="Obj_Gradient_2" xl:href="#Gradient" gradientTransform="translate(478 620.156) scale(317.782)"/>
+    <radialGradient id="Obj_Gradient_3" xl:href="#Gradient" gradientTransform="translate(214 81.21583) scale(267.90483)"/>
+    <radialGradient cx="0" cy="0" r="1" id="Gradient_2" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#333"/>
+      <stop offset="1" stop-color="#333"/>
+    </radialGradient>
+    <radialGradient id="Obj_Gradient_4" xl:href="#Gradient_2" gradientTransform="translate(121 269.58702) scale(119.01365)"/>
+    <marker orient="auto" overflow="visible" markerUnits="strokeWidth" id="FilledArrow_Marker" stroke-linejoin="miter" stroke-miterlimit="10" viewBox="-1 -3 7 6" markerWidth="7" markerHeight="6" color="white">
+      <g>
+        <path d="M 4.8 0 L 0 -1.8 L 0 1.8 Z" fill="currentColor" stroke="currentColor" stroke-width="1"/>
+      </g>
+    </marker>
+    <marker orient="auto" overflow="visible" markerUnits="strokeWidth" id="FilledArrow_Marker_2" stroke-linejoin="miter" stroke-miterlimit="10" viewBox="-6 -3 7 6" markerWidth="7" markerHeight="6" color="white">
+      <g>
+        <path d="M -4.8 0 L 0 1.8 L 0 -1.8 Z" fill="currentColor" stroke="currentColor" stroke-width="1"/>
+      </g>
+    </marker>
+    <filter id="Shadow" filterUnits="userSpaceOnUse" x="-404.8" y="-48.26259">
+      <feGaussianBlur in="SourceAlpha" result="blur" stdDeviation="1.3030978"/>
+      <feOffset in="blur" result="offset" dx="0" dy="2"/>
+      <feFlood flood-color="black" flood-opacity=".2" result="flood"/>
+      <feComposite in="flood" in2="offset" operator="in" result="color"/>
+      <feMerge>
+        <feMergeNode in="color"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <radialGradient id="Obj_Gradient_5" xl:href="#Gradient" gradientTransform="translate(643.5 286) scale(90.76896)"/>
+    <radialGradient id="Obj_Gradient_6" xl:href="#Gradient_2" gradientTransform="translate(344.75 269.58702) scale(70.47562)"/>
+  </defs>
+  <g id="Canvas_1" stroke-opacity="1" fill-opacity="1" stroke="none" stroke-dasharray="none" fill="none">
+    <title>Canvas 1</title>
+    <g id="Canvas_1_Layer_1">
+      <title>Layer 1</title>
+      <g id="Graphic_3">
+        <path d="M -43 104 L 471 104 C 476.52285 104 481 108.47715 481 114 L 481 298 C 481 303.52285 476.52285 308 471 308 L -43 308 C -48.52285 308 -53 303.52285 -53 298 L -53 114 C -53 108.47715 -48.52285 104 -43 104 Z" fill="url(#Obj_Gradient)"/>
+        <path d="M -43 104 L 471 104 C 476.52285 104 481 108.47715 481 114 L 481 298 C 481 303.52285 476.52285 308 471 308 L -43 308 C -48.52285 308 -53 303.52285 -53 298 L -53 114 C -53 108.47715 -48.52285 104 -43 104 Z" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        <text transform="translate(-48 109)" fill="white">
+          <tspan font-family="Helvetica Neue" font-size="16" fill="white" x="237.408" y="15" xml:space="preserve">GeoKit</tspan>
+        </text>
+      </g>
+      <g id="Graphic_8">
+        <path d="M -12 209 L 437 209 C 442.52285 209 447 213.47715 447 219 L 447 289 C 447 294.52285 442.52285 299 437 299 L -12 299 C -17.522847 299 -22 294.52285 -22 289 L -22 219 C -22 213.47715 -17.522847 209 -12 209 Z" fill="#521b93"/>
+        <path d="M -12 209 L 437 209 C 442.52285 209 447 213.47715 447 219 L 447 289 C 447 294.52285 442.52285 299 437 299 L -12 299 C -17.522847 299 -22 294.52285 -22 289 L -22 219 C -22 213.47715 -17.522847 209 -12 209 Z" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        <text transform="translate(-17 223)" fill="white">
+          <tspan font-family="Helvetica Neue" font-size="16" fill="white" x="199.276" y="15" xml:space="preserve">GeoDAL</tspan>
+        </text>
+      </g>
+      <g id="Graphic_40">
+        <path d="M 861 790 L 983.5 790 C 989.0228 790 993.5 794.47715 993.5 800 L 993.5 878 C 993.5 883.5228 989.0228 888 983.5 888 L 861 888 C 855.4772 888 851 883.5228 851 878 L 851 800 C 851 794.47715 855.4772 790 861 790 Z" fill="#a5a5a5"/>
+        <path d="M 861 790 L 983.5 790 C 989.0228 790 993.5 794.47715 993.5 800 L 993.5 878 C 993.5 883.5228 989.0228 888 983.5 888 L 861 888 C 855.4772 888 851 883.5228 851 878 L 851 800 C 851 794.47715 855.4772 790 861 790 Z" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        <text transform="translate(856 795)" fill="white">
+          <tspan font-family="Helvetica Neue" font-size="16" fill="white" x="0" y="15" xml:space="preserve">OS</tspan>
+        </text>
+      </g>
+      <g id="Graphic_39">
+        <path d="M 857 559.812 L 979.5 559.812 C 985.0228 559.812 989.5 564.28916 989.5 569.812 L 989.5 670.5 C 989.5 676.02285 985.0228 680.5 979.5 680.5 L 857 680.5 C 851.4772 680.5 847 676.02285 847 670.5 L 847 569.812 C 847 564.28916 851.4772 559.812 857 559.812 Z" fill="#a5a5a5"/>
+        <path d="M 857 559.812 L 979.5 559.812 C 985.0228 559.812 989.5 564.28916 989.5 569.812 L 989.5 670.5 C 989.5 676.02285 985.0228 680.5 979.5 680.5 L 857 680.5 C 851.4772 680.5 847 676.02285 847 670.5 L 847 569.812 C 847 564.28916 851.4772 559.812 857 559.812 Z" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        <text transform="translate(852 564.812)" fill="white">
+          <tspan font-family="Helvetica Neue" font-size="16" fill="white" x="0" y="15" xml:space="preserve">OS</tspan>
+        </text>
+      </g>
+      <g id="Graphic_38">
+        <path d="M 866 113 L 998 113 C 1003.5228 113 1008 117.47715 1008 123 L 1008 298 C 1008 303.52285 1003.5228 308 998 308 L 866 308 C 860.4772 308 856 303.52285 856 298 L 856 123 C 856 117.47715 860.4772 113 866 113 Z" fill="#a5a5a5"/>
+        <path d="M 866 113 L 998 113 C 1003.5228 113 1008 117.47715 1008 123 L 1008 298 C 1008 303.52285 1003.5228 308 998 308 L 866 308 C 860.4772 308 856 303.52285 856 298 L 856 123 C 856 117.47715 860.4772 113 866 113 Z" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        <text transform="translate(861 118)" fill="white">
+          <tspan font-family="Helvetica Neue" font-size="16" fill="white" x="0" y="15" xml:space="preserve">Operating System</tspan>
+        </text>
+      </g>
+      <g id="Graphic_37">
+        <path d="M 176 559.812 L 780 559.812 C 785.52285 559.812 790 564.28916 790 569.812 L 790 670.5 C 790 676.02285 785.52285 680.5 780 680.5 L 176 680.5 C 170.47715 680.5 166 676.02285 166 670.5 L 166 569.812 C 166 564.28916 170.47715 559.812 176 559.812 Z" fill="url(#Obj_Gradient_2)"/>
+        <path d="M 176 559.812 L 780 559.812 C 785.52285 559.812 790 564.28916 790 569.812 L 790 670.5 C 790 676.02285 785.52285 680.5 780 680.5 L 176 680.5 C 170.47715 680.5 166 676.02285 166 670.5 L 166 569.812 C 166 564.28916 170.47715 559.812 176 559.812 Z" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        <text transform="translate(174 567.812)" fill="white">
+          <tspan font-family="Helvetica Neue" font-size="16" fill="white" x="283.256" y="15" xml:space="preserve">Vapor</tspan>
+        </text>
+      </g>
+      <g id="Graphic_6">
+        <path d="M 176 790 L 780 790 C 785.52285 790 790 794.47715 790 800 L 790 878 C 790 883.5228 785.52285 888 780 888 L 176 888 C 170.47715 888 166 883.5228 166 878 L 166 800 C 166 794.47715 170.47715 790 176 790 Z" fill="#333"/>
+        <path d="M 176 790 L 780 790 C 785.52285 790 790 794.47715 790 800 L 790 878 C 790 883.5228 785.52285 888 780 888 L 176 888 C 170.47715 888 166 883.5228 166 878 L 166 800 C 166 794.47715 170.47715 790 176 790 Z" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        <text transform="translate(171 829.776)" fill="silver">
+          <tspan font-family="Helvetica Neue" font-size="16" fill="silver" x="214.704" y="15" xml:space="preserve">PostgreSQL with PostGIS</tspan>
+        </text>
+      </g>
+      <g id="Graphic_2">
+        <path d="M -43 59.21583 L 471 59.21583 C 476.52285 59.21583 481 63.69298 481 69.21583 L 481 93.21583 C 481 98.73868 476.52285 103.21583 471 103.21583 L -43 103.21583 C -48.52285 103.21583 -53 98.73868 -53 93.21583 L -53 69.21583 C -53 63.69298 -48.52285 59.21583 -43 59.21583 Z" fill="url(#Obj_Gradient_3)"/>
+        <path d="M -43 59.21583 L 471 59.21583 C 476.52285 59.21583 481 63.69298 481 69.21583 L 481 93.21583 C 481 98.73868 476.52285 103.21583 471 103.21583 L -43 103.21583 C -48.52285 103.21583 -53 98.73868 -53 93.21583 L -53 69.21583 C -53 63.69298 -48.52285 59.21583 -43 59.21583 Z" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        <text transform="translate(-48 71.99183)" fill="white">
+          <tspan font-family="Helvetica Neue" font-size="16" fill="white" x="232.664" y="15" xml:space="preserve">ZenDive</tspan>
+        </text>
+      </g>
+      <g id="Graphic_7">
+        <path d="M 13 254.08702 L 229 254.08702 C 234.52285 254.08702 239 258.56417 239 264.08702 L 239 275.08702 C 239 280.60987 234.52285 285.08702 229 285.08702 L 13 285.08702 C 7.4771525 285.08702 3 280.60987 3 275.08702 L 3 264.08702 C 3 258.56417 7.4771525 254.08702 13 254.08702 Z" fill="url(#Obj_Gradient_4)"/>
+        <path d="M 13 254.08702 L 229 254.08702 C 234.52285 254.08702 239 258.56417 239 264.08702 L 239 275.08702 C 239 280.60987 234.52285 285.08702 229 285.08702 L 13 285.08702 C 7.4771525 285.08702 3 280.60987 3 275.08702 L 3 264.08702 C 3 258.56417 7.4771525 254.08702 13 254.08702 Z" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        <text transform="translate(8 260.36302)" fill="#a5a5a5">
+          <tspan font-family="Helvetica Neue" font-size="16" fill="#a5a5a5" x="49.296" y="15" xml:space="preserve">GDAL Framework</tspan>
+        </text>
+      </g>
+      <g id="Graphic_10">
+        <path d="M 243 599 L 360.5 599 C 366.02285 599 370.5 603.47715 370.5 609 L 370.5 651.5 C 370.5 657.02285 366.02285 661.5 360.5 661.5 L 243 661.5 C 237.47715 661.5 233 657.02285 233 651.5 L 233 609 C 233 603.47715 237.47715 599 243 599 Z" fill="#a5a5a5"/>
+        <path d="M 243 599 L 360.5 599 C 366.02285 599 370.5 603.47715 370.5 609 L 370.5 651.5 C 370.5 657.02285 366.02285 661.5 360.5 661.5 L 243 661.5 C 237.47715 661.5 233 657.02285 233 651.5 L 233 609 C 233 603.47715 237.47715 599 243 599 Z" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        <text transform="translate(238 611.802)" fill="black">
+          <tspan font-family="Helvetica Neue" font-size="16" fill="black" x="31.158" y="15" xml:space="preserve">OGC API</tspan>
+          <tspan font-family="Helvetica Neue" font-size="16" fill="black" x="47.31" y="33.448" xml:space="preserve">Tiles</tspan>
+        </text>
+      </g>
+      <g id="Graphic_12">
+        <path d="M 590.625 594.5 L 696.375 594.5 C 701.89785 594.5 706.375 598.97715 706.375 604.5 L 706.375 647 C 706.375 652.52285 701.89785 657 696.375 657 L 590.625 657 C 585.10215 657 580.625 652.52285 580.625 647 L 580.625 604.5 C 580.625 598.97715 585.10215 594.5 590.625 594.5 Z" fill="#a5a5a5"/>
+        <path d="M 590.625 594.5 L 696.375 594.5 C 701.89785 594.5 706.375 598.97715 706.375 604.5 L 706.375 647 C 706.375 652.52285 701.89785 657 696.375 657 L 590.625 657 C 585.10215 657 580.625 652.52285 580.625 647 L 580.625 604.5 C 580.625 598.97715 585.10215 594.5 590.625 594.5 Z" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        <text transform="translate(585.625 607.302)" fill="black">
+          <tspan font-family="Helvetica Neue" font-size="16" fill="black" x="25.283" y="15" xml:space="preserve">OGC API</tspan>
+          <tspan font-family="Helvetica Neue" font-size="16" fill="black" x="8.835" y="33.448" xml:space="preserve">SensorThings</tspan>
+        </text>
+      </g>
+      <g id="Graphic_13">
+        <text transform="translate(870.541 599.5)" fill="black">
+          <tspan font-family="Helvetica Neue" font-size="16" fill="black" x="0" y="15" xml:space="preserve">- Linux</tspan>
+          <tspan font-family="Helvetica Neue" font-size="16" fill="black" x="0" y="33.448" xml:space="preserve">- macOS</tspan>
+        </text>
+      </g>
+      <g id="Graphic_14">
+        <text transform="translate(871.416 828)" fill="black">
+          <tspan font-family="Helvetica Neue" font-size="16" fill="black" x="0" y="15" xml:space="preserve">- Linux</tspan>
+          <tspan font-family="Helvetica Neue" font-size="16" fill="black" x="0" y="33.448" xml:space="preserve">- macOS</tspan>
+        </text>
+      </g>
+      <g id="Graphic_15">
+        <text transform="translate(871 156)" fill="black">
+          <tspan font-family="Helvetica Neue" font-size="16" fill="black" x="0" y="15" xml:space="preserve">- iOS</tspan>
+          <tspan font-family="Helvetica Neue" font-size="16" fill="black" x="0" y="33.448" xml:space="preserve">- macOS</tspan>
+          <tspan font-family="Helvetica Neue" font-size="16" fill="black" x="0" y="51.895996" xml:space="preserve">- iPadOS</tspan>
+          <tspan font-family="Helvetica Neue" font-size="16" fill="black" x="0" y="70.34399" xml:space="preserve">- tvOS</tspan>
+        </text>
+      </g>
+      <g id="Graphic_24">
+        <path d="M -43 790 L 100 790 C 105.52285 790 110 794.47715 110 800 L 110 878 C 110 883.5228 105.52285 888 100 888 L -43 888 C -48.52285 888 -53 883.5228 -53 878 L -53 800 C -53 794.47715 -48.52285 790 -43 790 Z" fill="#333"/>
+        <path d="M -43 790 L 100 790 C 105.52285 790 110 794.47715 110 800 L 110 878 C 110 883.5228 105.52285 888 100 888 L -43 888 C -48.52285 888 -53 883.5228 -53 878 L -53 800 C -53 794.47715 -48.52285 790 -43 790 Z" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        <text transform="translate(-48 811.328)" fill="silver">
+          <tspan font-family="Helvetica Neue" font-size="16" fill="silver" x="58.572" y="15" xml:space="preserve">OGC</tspan>
+          <tspan font-family="Helvetica Neue" font-size="16" fill="silver" x="27.46" y="33.448" xml:space="preserve">GeoDatabase</tspan>
+          <tspan font-family="Helvetica Neue" font-size="16" fill="silver" x="43.316" y="51.895996" xml:space="preserve">Shapefile</tspan>
+        </text>
+      </g>
+      <g id="Line_25">
+        <path d="M 28.5 777.1 L 28.5 344.22266 C 28.5 337.04295 34.3203 331.22266 41.5 331.22266 L 108 331.22266 C 115.1797 331.22266 121 325.40236 121 318.22266 L 121 297.98702" marker-end="url(#FilledArrow_Marker)" marker-start="url(#FilledArrow_Marker_2)" stroke="white" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+      </g>
+      <g id="Line_26">
+        <path d="M 301.75 586.1 L 301.75 344.3203 C 301.75 337.1406 295.9297 331.3203 288.75 331.3203 L 134 331.3203 C 126.8203 331.3203 121 325.5 121 318.3203 L 121 297.98702" marker-end="url(#FilledArrow_Marker)" marker-start="url(#FilledArrow_Marker_2)" stroke="white" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+      </g>
+      <g id="Graphic_27">
+        <rect x="-12.256" y="717.2986" width="81.512" height="27.406097" fill="black"/>
+        <text transform="translate(-7.2559995 722.2986)" fill="#a5a5a5">
+          <tspan font-family="Helvetica Neue" font-weight="bold" font-size="14" fill="#a5a5a5" x="0" y="14" xml:space="preserve">Filesystem</tspan>
+        </text>
+      </g>
+      <g id="Graphic_28">
+        <rect x="265.117" y="438.0303" width="73.266" height="59.175995" fill="black"/>
+        <text transform="translate(270.117 443.0303)" fill="#a5a5a5">
+          <tspan font-family="Helvetica Neue" font-size="14" fill="#a5a5a5" x="0" y="13" xml:space="preserve">GeoJSON</tspan>
+          <tspan font-family="Helvetica Neue" font-size="14" fill="#a5a5a5" x="16.331" y="29.392" xml:space="preserve">GML</tspan>
+          <tspan font-family="Helvetica Neue" font-size="14" fill="#a5a5a5" x="12.054" y="45.783997" xml:space="preserve">(https)</tspan>
+        </text>
+      </g>
+      <g id="Line_31">
+        <path d="M 478 777.1 L 478 758.1575 C 478 758.1192 477.99983 758.0808 477.9995 758.0425 L 477.6921 723.29906 C 477.629 716.1645 471.82746 710.4141 464.6926 710.4141 L 314.75 710.4141 C 307.5703 710.4141 301.75 704.5938 301.75 697.4141 L 301.75 674.4" marker-end="url(#FilledArrow_Marker)" marker-start="url(#FilledArrow_Marker_2)" stroke="white" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+      </g>
+      <g id="Line_33">
+        <path d="M 478 777.1 L 478 721.9336 C 478 714.7539 483.8203 708.9336 491 708.9336 L 630.5 708.9336 C 637.6797 708.9336 643.5 703.1133 643.5 695.9336 L 643.5 669.9" marker-end="url(#FilledArrow_Marker)" marker-start="url(#FilledArrow_Marker_2)" stroke="white" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+      </g>
+      <g id="Graphic_42">
+        <text transform="translate(-249.5 220)" fill="#a5a5a5">
+          <tspan font-family="Helvetica Neue" font-weight="bold" font-size="30" fill="#a5a5a5" x="0" y="29" xml:space="preserve">Application</tspan>
+        </text>
+      </g>
+      <g id="Graphic_43">
+        <text transform="translate(-248.35 589.5649)" fill="#a5a5a5">
+          <tspan font-family="Helvetica Neue" font-weight="bold" font-size="30" fill="#a5a5a5" x="0" y="29" xml:space="preserve">Services</tspan>
+        </text>
+      </g>
+      <g id="Graphic_44">
+        <text transform="translate(-214.49 780.5)" fill="#a5a5a5">
+          <tspan font-family="Helvetica Neue" font-weight="bold" font-size="30" fill="#a5a5a5" x="0" y="29" xml:space="preserve">Data</tspan>
+        </text>
+      </g>
+      <g id="Graphic_18" filter="url(#Shadow)">
+        <path d="M 265.15663 397.7809 C 249.15625 394.8712 255.5368 370.3764 281.06098 374.55593 C 283.42906 366.4087 313.11025 367.7311 312.9162 374.55593 C 331.52722 365.82686 355.311 383.23244 339.3581 391.9615 C 358.50076 396.1936 339.11656 418.99544 323.40625 415.18646 C 322.14895 421.5351 294.06364 423.7568 291.59854 415.18646 C 275.69518 424.33916 242.53414 410.26637 265.15663 397.7809 Z" fill="#a5a5a5"/>
+        <path d="M 265.15663 397.7809 C 249.15625 394.8712 255.5368 370.3764 281.06098 374.55593 C 283.42906 366.4087 313.11025 367.7311 312.9162 374.55593 C 331.52722 365.82686 355.311 383.23244 339.3581 391.9615 C 358.50076 396.1936 339.11656 418.99544 323.40625 415.18646 C 322.14895 421.5351 294.06364 423.7568 291.59854 415.18646 C 275.69518 424.33916 242.53414 410.26637 265.15663 397.7809 Z" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      </g>
+      <g id="Graphic_55">
+        <path d="M 565.4375 264 L 721.5625 264 C 727.08535 264 731.5625 268.47715 731.5625 274 L 731.5625 298 C 731.5625 303.52285 727.08535 308 721.5625 308 L 565.4375 308 C 559.91465 308 555.4375 303.52285 555.4375 298 L 555.4375 274 C 555.4375 268.47715 559.91465 264 565.4375 264 Z" fill="url(#Obj_Gradient_5)"/>
+        <path d="M 565.4375 264 L 721.5625 264 C 727.08535 264 731.5625 268.47715 731.5625 274 L 731.5625 298 C 731.5625 303.52285 727.08535 308 721.5625 308 L 565.4375 308 C 559.91465 308 555.4375 303.52285 555.4375 298 L 555.4375 274 C 555.4375 268.47715 559.91465 264 565.4375 264 Z" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        <text transform="translate(560.4375 276.776)" fill="white">
+          <tspan font-family="Helvetica Neue" font-size="16" fill="white" x="57.8785" y="15" xml:space="preserve">Sensor</tspan>
+        </text>
+      </g>
+      <g id="Line_57">
+        <path d="M 643.5 581.6 L 643.5 354.24414 C 643.5 354.02517 643.3225 353.84766 643.1035 353.84766 C 642.88454 353.84766 642.707 353.67014 642.707 353.45117 L 642.707 327.3965 C 642.707 327.1775 642.88454 327 643.1035 327 C 643.3225 327 643.5 326.8225 643.5 326.6035 L 643.5 308" marker-start="url(#FilledArrow_Marker_2)" stroke="white" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+      </g>
+      <g id="Graphic_63">
+        <path d="M 286 254.08702 L 403.5 254.08702 C 409.02285 254.08702 413.5 258.56417 413.5 264.08702 L 413.5 275.08702 C 413.5 280.60987 409.02285 285.08702 403.5 285.08702 L 286 285.08702 C 280.47715 285.08702 276 280.60987 276 275.08702 L 276 264.08702 C 276 258.56417 280.47715 254.08702 286 254.08702 Z" fill="url(#Obj_Gradient_6)"/>
+        <path d="M 286 254.08702 L 403.5 254.08702 C 409.02285 254.08702 413.5 258.56417 413.5 264.08702 L 413.5 275.08702 C 413.5 280.60987 409.02285 285.08702 403.5 285.08702 L 286 285.08702 C 280.47715 285.08702 276 280.60987 276 275.08702 L 276 264.08702 C 276 258.56417 280.47715 254.08702 286 254.08702 Z" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        <text transform="translate(281 260.36302)" fill="#a5a5a5">
+          <tspan font-family="Helvetica Neue" font-size="16" fill="#a5a5a5" x="14.71" y="15" xml:space="preserve">SensorThings</tspan>
+        </text>
+      </g>
+      <g id="Line_66">
+        <path d="M 643.5 581.6 L 643.5 345.5054 C 643.5 338.3257 637.6797 332.5054 630.5 332.5054 L 357.75 332.5054 C 350.5703 332.5054 344.75 326.6851 344.75 319.5054 L 344.75 297.98702" marker-end="url(#FilledArrow_Marker)" marker-start="url(#FilledArrow_Marker_2)" stroke="white" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+      </g>
+      <g id="Graphic_58" filter="url(#Shadow)">
+        <path d="M 680.037 385.1828 C 696.0857 387.8128 690.13365 412.41523 664.5404 408.6818 C 662.3149 416.8691 632.61514 416.06494 632.69004 409.23775 C 614.2342 418.2903 590.1503 401.30245 605.9484 392.2963 C 586.7348 388.39895 605.7181 365.26227 621.4925 368.7965 C 622.6388 362.42685 650.6811 359.71536 653.2954 368.24136 C 669.0366 358.8125 702.4382 372.3044 680.037 385.1828 Z" fill="#a5a5a5"/>
+        <path d="M 680.037 385.1828 C 696.0857 387.8128 690.13365 412.41523 664.5404 408.6818 C 662.3149 416.8691 632.61514 416.06494 632.69004 409.23775 C 614.2342 418.2903 590.1503 401.30245 605.9484 392.2963 C 586.7348 388.39895 605.7181 365.26227 621.4925 368.7965 C 622.6388 362.42685 650.6811 359.71536 653.2954 368.24136 C 669.0366 358.8125 702.4382 372.3044 680.037 385.1828 Z" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      </g>
+      <g id="Graphic_56">
+        <rect x="606.867" y="461.80367" width="73.266" height="59.175995" fill="black"/>
+        <text transform="translate(611.867 466.80367)" fill="#a5a5a5">
+          <tspan font-family="Helvetica Neue" font-size="14" fill="#a5a5a5" x="13.09" y="13" xml:space="preserve">JSON</tspan>
+          <tspan font-family="Helvetica Neue" font-size="14" fill="#a5a5a5" x="0" y="29.392" xml:space="preserve">GeoJSON</tspan>
+          <tspan font-family="Helvetica Neue" font-size="14" fill="#a5a5a5" x="12.054" y="45.783997" xml:space="preserve">(https)</tspan>
+        </text>
+      </g>
+      <g id="Graphic_67">
+        <path d="M -10.5 162.104 L 437 162.104 C 442.52285 162.104 447 166.58116 447 172.104 L 447 199 C 447 204.52285 442.52285 209 437 209 L -10.5 209 C -16.022847 209 -20.5 204.52285 -20.5 199 L -20.5 172.104 C -20.5 166.58116 -16.022847 162.104 -10.5 162.104 Z" fill="#521b93"/>
+        <path d="M -10.5 162.104 L 437 162.104 C 442.52285 162.104 447 166.58116 447 172.104 L 447 199 C 447 204.52285 442.52285 209 437 209 L -10.5 209 C -16.022847 209 -20.5 204.52285 -20.5 199 L -20.5 172.104 C -20.5 166.58116 -16.022847 162.104 -10.5 162.104 Z" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        <text transform="translate(-15.5 176.104)" fill="white">
+          <tspan font-family="Helvetica Neue" font-size="16" fill="white" x="197.782" y="15" xml:space="preserve">GeoMap</tspan>
+        </text>
+      </g>
+    </g>
+  </g>
+</svg>

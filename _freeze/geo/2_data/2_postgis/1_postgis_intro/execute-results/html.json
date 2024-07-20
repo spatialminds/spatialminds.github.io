@@ -1,0 +1,12 @@
+{
+  "hash": "d7288ac3ccd52b8a79ce444243f9a54f",
+  "result": {
+    "engine": "jupyter",
+    "markdown": "---\ntitle: Introduction\ndate: last-modified\ndate-format: long\n---\n\n",
+    "supporting": [
+      "1_postgis_intro_files"
+    ],
+    "filters": [],
+    "includes": {}
+  }
+}

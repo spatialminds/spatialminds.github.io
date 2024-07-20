@@ -1,0 +1,11 @@
+{
+  "hash": "15248aebcf2a8fc0e1a9f532a629f7b7",
+  "result": {
+    "engine": "jupyter",
+    "markdown": "---\ntitle: What's a GeoStack?\ndescription: High level architecture of a Swift GeoStack\ndate: 07-19-2024\ncategories:\n  - Announcement\nimage: thumb.png\ndraft: false\nformat:\n  html: default\n  pdf: default\ncitation: false\nappendix-cite-as: display\ncopyright:\n  holder: Craig A Miller\n  year: 2024\ninclude-after-body:\n  text: |\n    <footer class=\"footer\">© 2024 Craig A Miller.  All rights reserved.</footer>\n---\n\nThe first article on developing a complete Swift GeoStack has been published.\n\nYou can find it in [What's a GeoStack?](/geo/Architecture/Whats%20a%20GeoStack.qmd)\n\n",
+    "supporting": [
+      "index_files/figure-pdf"
+    ],
+    "filters": []
+  }
+}

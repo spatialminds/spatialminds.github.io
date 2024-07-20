@@ -1,0 +1,60 @@
+---
+title: "Install"
+jupyter: python3
+date: last-modified
+date-format: long
+---
+# Install PostgreSQL
+postgresapp.com
+version 16 - or 17 beta w/ all support.
+We'll be using pg 16 in this tutorial
+
+# Install pgAdmin 4
+Postico doesn't support the display of PostGIS data types
+
+# Install postgis extension
+Open pgAdmin
+Create a database, or use the existing one (your username)
+Create the postgis extension
+* Expand the database
+* Right click on Extensions - Select Create -> Extension
+* Select postgis as the "item"
+* Save
+
+
+# Load some geodata
+
+## ogr2ogr
+Install ogr2ogr via homebrew
+
+```
+ogr2ogr \
+    -nln nyc_census_blocks_2000 \
+    -nlt PROMOTE_TO_MULTI \
+    -lco GEOMETRY_NAME=geom \
+    -lco FID=gid \
+    -lco PRECISION=NO \
+    Pg:'dbname=nyc host=localhost user=postgres port=5432' \
+    nyc_census_blocks_2000.shp
+```
+
+## postgis - shp2-pgsql
+
+```
+shp2pgsql \
+    -D \
+    -I \
+    -s 26918 \
+    nyc_census_blocks_2000.shp \
+    nyc_census_blocks_2000 \
+    | psql dbname=nyc user=postgres host=localhost**
+```
+
+
+## QGIS
+
+
+
+# SQL Queries
+
+

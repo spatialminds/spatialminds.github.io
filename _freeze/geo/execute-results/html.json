@@ -1,0 +1,12 @@
+{
+  "hash": "d9d7f2f5fee741f2eb71ea23668f7c9d",
+  "result": {
+    "engine": "jupyter",
+    "markdown": "---\ntitle: Swift Geo\n---\n\n Swift Geo\n\n",
+    "supporting": [
+      "geo_files"
+    ],
+    "filters": [],
+    "includes": {}
+  }
+}

@@ -1,8 +1,16 @@
 ---
-# title: ""
+title: ""
+pagetitle: "Article Index"
+listing:
+  contents: /posts
+  type: default
+  sort: "date desc"
+  categories: true  # allows you to sort posts by assigned categories
+citation: false
+toc: false
+feed: true
 ---
-## We code apps with maps.
+<!-- ![{{< meta image-alt >}}]({{< meta image >}}) -->
+![](/images/appleearth-banner.png)
 
-Location Intelligence, Spatial Analysis, and custom geospatial solutions for iPhone, iPad, CarPlay, Mac, Apple Watch, and AppleTV.  We work with geospatial data from satellite imagery, street networks, indoor mapping data, mobility data, census data, the environment, and more.  We love beautiful data visualization and UI/UX design.
-
-Welcome.
+## Code apps with maps.

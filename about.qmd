@@ -1,5 +1,64 @@
 ---
-title: "About"
+title: "Craig Miller"
+description: CTO | Geospatial |  Developer | Startup Advisor
+about:
+  template: solana
+  image: images/profile-picture.jpg
+  image-shape: round
+  links:
+    - icon: rocket-takeoff-fill
+      text: Next Idea
+      href: https://nextidea.io
+    - icon: linkedin
+      text: Linked-in
+      href: https://www.linkedin.com/in/craigmiller/
+    - icon: envelope
+      text: Connect
+      href: https://craigmiller.us
 ---
+Craig Miller has been a Geospatial Developer since he took his first programming class on an Apple ][e in 1983 where his first project was to build a database from his father's report, "Geographical Distribution of Puget Sound Fishes" @millerGeographicalDistributionPuget1980
 
-About this site
+Craig is founder of [Spatial Minds](https://spatialminds.com) and CEO of [Next Idea](https://nextidea.io).  Craig enjoys spending time exploring the planet, diving, and sailing.
+
+## Education
+
+**MS in Spatial Information Science and Engineering**\
+University of Maine | Bangor, ME
+
+**Mathematics and Computer Science**\
+Central Washington University | Ellensburg, WA
+
+**B.A in Geography/GIS**\
+Central Washington University | Ellensburg, WA
+
+## Experience
+
+**Next Idea**\
+Founder & Chief Technology Officer\
+2018 - Present
+
+**GSI**\
+Chief Technology Officer\
+2012 - 2018
+
+- MapDrill: Property Tech Real Estate Analytics platform
+- Vinesta:  Senior Housing marketplace
+
+**Spatial Minds, LLC**\
+Founder & Chief Technology Officer | 2004 - 2018
+
+**Autodesk Location Services**\
+Senior Software Engineer\
+2000 - 2004
+
+**Battelle - PNW National Labs**\
+Research Fellow\
+1996 - 2000
+
+**CH2M Hill**\
+GIS Manager\
+1995 - 1996
+
+**US Forest Service - Wenatchee Forestry Sciences Lab**\
+Lead GIS Analyst\
+1993 - 1995

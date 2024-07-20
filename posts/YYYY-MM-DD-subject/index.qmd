@@ -1,0 +1,39 @@
+---
+jupyter: python3
+title: "TITLE"
+# pagetitle: "{{< meta title >}}"
+description: "DESCRIPTION"
+date: 01-01-3000
+categories: [Tech Guide] # self-defined categories
+image: thumb.png
+draft: true
+format:
+  html: default
+  pdf: default
+# abstract: >
+  # ABSTRACT
+keywords:
+  - Swift
+  - Geospatial stack
+# title-block-banner: true
+author:
+  - name:
+      given: Craig A
+      family: Miller
+    id: cm
+citation: false
+appendix-cite-as: display
+copyright:
+  holder: Craig A Miller
+  year: 2024
+include-after-body:
+  text: |
+    <footer class="footer">© 2024 Craig A Miller.  All rights reserved.</footer>
+
+---
+## Introduction
+
+Footnote[^1]
+Reference @millerGeographicalDistributionPuget1980
+
+[^1]: https://nextidea.io

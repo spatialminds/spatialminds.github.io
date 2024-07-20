@@ -1,0 +1,37 @@
+---
+jupyter: python3
+title: "What's a GeoStack?"
+# pagetitle: "{{< meta title >}}"
+description: "High level architecture of a Swift GeoStack"
+date: 07-19-2024
+categories: [Announcement] # self-defined categories
+image: /images/geostack-simplified.svg
+draft: false
+format:
+  html: default
+  # pdf: default
+# abstract: >
+  # ABSTRACT
+# keywords:
+#   - Swift
+#   - Geospatial stack
+# title-block-banner: true
+# author:
+#   - name:
+#       given: Craig A
+#       family: Miller
+#     id: cm
+citation: false
+appendix-cite-as: display
+copyright:
+  holder: Craig A Miller
+  year: 2024
+include-after-body:
+  text: |
+    <footer class="footer">© 2024 Craig A Miller.  All rights reserved.</footer>
+
+---
+The first article on developing a complete Swift GeoStack has been published.
+
+You can find it in [What's a GeoStack?](/geo/Architecture/whats_a_geostack.qmd)
+

@@ -1,0 +1,44 @@
+---
+title: "US Census Data"
+jupyter: python3
+date: last-modified
+date-format: long
+---
+# Download Data - US Census Data
+
+Overview of US Census Data
+https://walker-data.com/census-r/the-united-states-census-and-the-r-programming-language.html
+
+Find a data source
+if you're using a shp file, be sure you have the .prj file that specifies the map projection/CRS
+Our preferred method of importing data is to download the Geodatabase file, which is an OGC standard file format, that is quite easy to import with QGIS (Our preferred method)
+
+Census Data Download
+Download US Census TIGER data as geodatabase files from https://www.census.gov/geographies/mapping-files/time-series/geo/cartographic-boundary.2023.html#list-tab-1883739534
+
+
+Do this instead:
+The associated 1-Year and 5-Year American Community Survey, can be downloaded from https://censusreporter.tumblr.com/post/73727555158/easier-access-to-acs-data
+We'll download the 5year data, as it goes down to the more detailed block group level.  This is National Data (The entire country).
+
+2022:
+
+```zsh
+curl https://census-extracts.b-cdn.net/acs2022_5yr_backup.sql.gz  > acs2022_5yr_backup.sql.gz
+curl https://census-extracts.b-cdn.net/tiger2022_backup.sql.gz > tiger2022_backup.sql.gz
+cat acs2022_5yr_backup.sql | psql census
+cat tiger2022_backup.sql | psql census
+```
+
+2021:
+
+```zsh
+curl https://census-extracts.b-cdn.net/acs2021_5yr_backup.sql.gz > acs2021_5yr_backup.sql.gz
+curl https://census-extracts.b-cdn.net/tiger2021_backup.sql.gz > tiger2021_backup.sql.gz >
+```
+
+2020 (Census Year):
+```zsh
+curl https://census-extracts.b-cdn.net/acs2020_5yr_backup.sql.gz > acs2020_5yr_backup.sql.gz
+curl https://census-extracts.b-cdn.net/tiger2020_backup.sql.gz > tiger2020_backup.sql.gz
+```

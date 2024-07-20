@@ -1,0 +1,12 @@
+{
+  "hash": "e37abeaa406e9f039bc1886478dde2dc",
+  "result": {
+    "engine": "jupyter",
+    "markdown": "---\ntitle: Introduction\n---\n\nGDAL Intro\n\n",
+    "supporting": [
+      "introduction_files"
+    ],
+    "filters": [],
+    "includes": {}
+  }
+}

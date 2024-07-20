@@ -1,0 +1,12 @@
+{
+  "hash": "3a9792bf2a41ab72000e75e263b02c56",
+  "result": {
+    "engine": "jupyter",
+    "markdown": "---\ntitle: Introduction\n---\n\n GeoAI\n\n",
+    "supporting": [
+      "geoai_files"
+    ],
+    "filters": [],
+    "includes": {}
+  }
+}

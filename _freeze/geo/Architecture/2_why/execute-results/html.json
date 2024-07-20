@@ -1,0 +1,12 @@
+{
+  "hash": "081a779140dd3d941c4ac16daa243ec2",
+  "result": {
+    "engine": "jupyter",
+    "markdown": "---\ntitle: Why a Swift GeoStack?\ndate: last-modified\ndate-format: long\norder: 2\n---\n\nBecause everything is more fun to work on when it's in Swift!\n\nDeveloping Apple Native applications is becoming more and more dependent on writing in Swift.\n\nPython and C++ developers have an abundance of scientific libraries at their disposal, but writing a scientific app in Swift requires wrapping those libraries to make them consumable in a Swifty way.\n\n1.  There is very little \"geospatial\" in the Apple Developer ecosystem.\n  - Many C/C++ libraries\n  - Difficult to work with in a \"Swifty\" way.\n\n2. It's difficult to build serious Geospatial Apps for Apple.\n  - No serious GIS apps designed for Apple.  ESRI is 100% Windows.  QGIS is the only serious GIS option on macOS.\n\n2. Data Science and Geo Data Science are more important today than ever. As a Swift Developer I want to be able to create amazing apps for the Apple Ecosystem.\n\n",
+    "supporting": [
+      "2_why_files"
+    ],
+    "filters": [],
+    "includes": {}
+  }
+}

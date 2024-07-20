@@ -1,0 +1,12 @@
+{
+  "hash": "c009a46f2957ba0c9daf6df5dd073c57",
+  "result": {
+    "engine": "jupyter",
+    "markdown": "---\ntitle: Introduction\n---\n\nPostGIS\n\n",
+    "supporting": [
+      "introduction_files"
+    ],
+    "filters": [],
+    "includes": {}
+  }
+}

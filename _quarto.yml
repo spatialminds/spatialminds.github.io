@@ -5,21 +5,64 @@ execute:
   freeze: auto
 
 website:
-  title: "SpatialMinds"
+  title: '[<b>Spatial</b>Minds]{style="background: linear-gradient(to right, #0FDDFF, #F03FFF); -webkit-background-clip: text; -webkit-text-fill-color: transparent; " }'
+  description: "Location Intelligence in Swift"
+  # reader-mode: true
+  site-url: "https://spatialminds.com"
+  open-graph: true
+  page-navigation: true
   navbar:
+    pinned: true
     left:
-      # - href: geo.qmd
-        # text:  Swift Geo
-      # - href: geoai.qmd
-        # text:  GeoAI
-      - href: mojo_installation.qmd
-        text: 🔥 Mojo
-      # - href: about.qmd
-        # text: About
+      - href: geo/whats_a_geostack.qmd
+        text:  Location Intelligence
+      # - href: geoai/introduction.qmd
+      #   text:  GeoAI
+      # - href: mojo_installation.qmd
+      #   text: 🔥 Mojo
+      - href: about.qmd
+        text: About
+    right:
+      - icon: rss
+        href: index.xml
     search: true
-    # logo: images/logo.png
-    background: "#1D1D1F"
+    logo: images/spatialminds-logo.svg
+    # background: "#1D1D1F"
+    background: "#1E2129"
 
+  sidebar:
+    - title: " Location Intelligence"
+      style: "docked"
+      collapse-level: 2
+      search: false
+      background: "#1D1D1F"
+      contents:
+        - geo/introduction.qmd
+        - section: "Architecture"
+          contents: geo/Architecture/*
+        - section: "Maps"
+          contents: geo/maps/*
+        - section: "Data"
+          contents:
+            - section: "GDAL"
+              contents: geo/data/gdal/*
+            - section: "PostGIS"
+              contents: geo/data/postgis/*
+        # - section: "Analytics"
+        #   contents: geo/analytics/*
+    # - title: " GeoAI"
+    #   style: "docked"
+    #   collapse-level: 3
+    #   background: "#1D1D1F"
+    #   contents:
+    #     - geoai/introduction.qmd
+        # - section: "CoreML"
+        #   contents: geoai/coreml/*
+        # - section: "pyTorch"
+        #   contents: geoai/pytorch/*
+        # - mojo_installation.qmd
+        # - tutorial-1.qmd
+        # - tutorial-2.qmd
 
 format:
   html:
@@ -27,15 +70,22 @@ format:
     css: styles.css
     mainfont: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     fontcolor: "#FFFFFF"
-    backgroundcolor: "#000000"
+    backgroundcolor: "#1D1D1F"
     toc: true
     code-fold: true
+    # page-layout: full
     syntax-definitions:
       - syntax-definitions/mojo.xml
-
+    include-in-header:
+      - text: <script src="https://cdn.pagesense.io/js/nextidea/1eb96277bc5e40feb1e5b25eb8583fb7.js"></script>
 filters:
   - pyodide
 
+title-block-style: default
+date-format: long
+jupyter: python3
 bibliography: bibliography.bib
 suppress-bibliography: false
-# csl: /Users/craig/bibtex-files/csl/taylor-and-francis-harvard-x
+csl: /Users/craig/bibtex-files/csl/taylor-and-francis-harvard-x
+
+
