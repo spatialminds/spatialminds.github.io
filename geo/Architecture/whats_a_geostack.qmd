@@ -2,7 +2,7 @@
 title: "What's a GeoStack?"
 format:
   html: default
-  pdf: default
+  # pdf: default
 # abstract: >
 #   The characteristic theme of the works of Stone is
 #   the bridge between culture and society. ...
