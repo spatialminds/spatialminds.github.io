@@ -33,5 +33,5 @@ include-after-body:
 ---
 The first article on developing a complete Swift GeoStack has been published.
 
-You can find it in [What's a GeoStack?](/geo/Architecture/whats_a_geostack.qmd)
+You can find it in [What's a GeoStack?](/geo/architecture/whats_a_geostack.qmd)
 

@@ -14,7 +14,7 @@ website:
   navbar:
     pinned: true
     left:
-      - href: geo/whats_a_geostack.qmd
+      - href: geo/architecture/whats_a_geostack.qmd
         text:  Location Intelligence
       # - href: geoai/introduction.qmd
       #   text:  GeoAI
@@ -39,7 +39,7 @@ website:
       contents:
         - geo/introduction.qmd
         - section: "Architecture"
-          contents: geo/Architecture/*
+          contents: geo/architecture/*
         - section: "Maps"
           contents: geo/maps/*
         - section: "Data"
@@ -86,6 +86,6 @@ date-format: long
 jupyter: python3
 bibliography: bibliography.bib
 suppress-bibliography: false
-csl: /Users/craig/bibtex-files/csl/taylor-and-francis-harvard-x
+# csl: csl/taylor-and-francis-harvard-x
 
 

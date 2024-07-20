@@ -16,7 +16,7 @@ about:
       text: Connect
       href: https://craigmiller.us
 ---
-Craig Miller has been a Geospatial Developer since he took his first programming class on an Apple ][e in 1983 where his first project was to build a database from his father's report, "Geographical Distribution of Puget Sound Fishes" @millerGeographicalDistributionPuget1980
+Craig Miller has been a Geospatial Developer since he took his first programming class on an Apple ][e in 1983 where his first project was to build a database from his father's report, _GEOGRAPHICAL DISTRIBUTION OF PUGET SOUND FISHES_ [@millerGeographicalDistributionPuget1980]
 
 Craig is founder of [Spatial Minds](https://spatialminds.com) and CEO of [Next Idea](https://nextidea.io).  Craig enjoys spending time exploring the planet, diving, and sailing.
 
