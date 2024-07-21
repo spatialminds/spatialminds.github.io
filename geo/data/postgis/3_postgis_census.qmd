@@ -4,7 +4,6 @@ date: last-modified
 date-format: long
 ---
 # Download Data - US Census Data
-
 Overview of US Census Data
 https://walker-data.com/census-r/the-united-states-census-and-the-r-programming-language.html
 
