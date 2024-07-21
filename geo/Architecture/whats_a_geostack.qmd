@@ -17,7 +17,7 @@ author:
   - name:
       given: Craig A
       family: Miller
-    id: cm
+    # id: cm
     # email: craig@spatialminds.com
     # affiliation:
     #   - name: Spatial Minds
