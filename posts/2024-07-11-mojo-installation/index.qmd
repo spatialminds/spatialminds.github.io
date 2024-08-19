@@ -1,9 +1,9 @@
 ---
 title: "Mojo Installation"
 # pagetitle: "{{< meta title >}}"
-description: "How to install Mojo on macOS."
+description: "Super fast Python! Speed up your AI workflow.  Install Modular's Mojo on macOS."
 date: 07-11-2024
-categories: [Tech Guide] # self-defined categories
+categories: [Developer] # self-defined categories
 image: thumb.png
 draft: false # setting this to `true` will prevent your post from appearing on your listing page until you're ready!
 format:

@@ -5,37 +5,37 @@ execute:
   freeze: auto
 
 website:
-  title: '[<b>Spatial</b>Minds]{style="background: linear-gradient(to right, #0FDDFF, #F03FFF); -webkit-background-clip: text; -webkit-text-fill-color: transparent; " }'
+  title: '[<b>Craig Miller</b>]{style="background: linear-gradient(to right, #0FDDFF, #F03FFF); -webkit-background-clip: text; -webkit-text-fill-color: transparent; " }'
   # description: "Location Intelligence in Swift"
   # reader-mode: true
-  site-url: "https://spatialminds.com"
+  site-url: "https://pub.craigmiller.us"
   open-graph: true
   page-navigation: true
   navbar:
     pinned: true
-    left:
-      - href: geo/introduction.qmd
-        text:  Location Intelligence
-      - href: about.qmd
-        text: About
+    # left:
+    #   - href: geo/introduction.qmd
+    #     text:  Location Intelligence
+    #   - href: about.qmd
+    #     text: About
     right:
       - icon: rss
-        href: index.xml
+        href: index.html
     search: true
-    logo: images/spatialminds-logo.svg
+    logo: images/logo.svg
     # background: "#1D1D1F"
     background: "#1E2129"
 
-  sidebar:
-    - title: " Location Intelligence"
-      style: "docked"
-      collapse-level: 2
-      search: false
-      background: "#1D1D1F"
-      contents:
-        - geo/introduction.qmd
-        - section: "Architecture"
-          contents: geo/architecture/*
+  # sidebar:
+  #   - title: " Location Intelligence"
+  #     style: "docked"
+  #     collapse-level: 2
+  #     search: false
+  #     background: "#1D1D1F"
+  #     contents:
+  #       - geo/introduction.qmd
+  #       - section: "Architecture"
+  #         contents: geo/architecture/*
         # - section: "Maps"
         #   contents: geo/maps/*
         # - section: "Data"
